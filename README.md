@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:020617,45:1d4ed8,70:38bdf8,100:020617&text=FURKIBEA&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=engineered,%20not%20scripted.&descSize=22&descAlignY=58" alt="header" width="100%" />
+<img src="assets/header.svg" alt="FURKIBEA" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Roblox+%2F+Luau+Systems+Developer;18+%C2%B7+TR+%C2%B7+server-side+brain;currently+building+Table+Tennis!;discord.gg%2Ffurkanlua" alt="typing" />
+<img src="assets/typing.svg" alt="typing" width="720" />
 
-<br/><br/>
+<br/>
 
 <a href="https://discord.com/users/798795705988546622"><img src="https://img.shields.io/badge/DISCORD-furkidev-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="discord" /></a>
 <a href="https://discord.gg/furkanlua"><img src="https://img.shields.io/badge/SERVER-furkanlua-38bdf8?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="server" /></a>
@@ -53,6 +53,9 @@ furki@studio:~$ skills --top
 [#######---] ui/ux logic & interaction flow
 [#######---] performance profiling / netcode
 
+furki@studio:~$ game --live
+Table Tennis! 🏓 · 900K+ visits · live on Roblox
+
 furki@studio:~$ uptime
 in studio more than in bed. worth it.
 ```
@@ -65,7 +68,7 @@ in studio more than in bed. worth it.
 
 I build Roblox games the boring-correct way: the server holds the truth, the client just draws it.
 
-Most of my time goes into **Table Tennis! 🏓** right now — 900K+ visits, real players, real load.
+Most of my time goes into **[Table Tennis! 🏓](https://www.roblox.com/games/99421048043573)** right now — 900K+ visits, real players, real load.
 
 </div>
 
@@ -92,19 +95,9 @@ return Furkan
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
+<br/>
 
-## 🏓 Live Project — Table Tennis!
-
-My game — real players, real load. These numbers are live, straight from the Roblox API:
-
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgames.roblox.com%2Fv1%2Fgames%3FuniverseIds%3D9871416081&query=%24.data%5B0%5D.playing&style=for-the-badge&label=🟢%20PLAYING%20NOW&labelColor=0d1117&color=22c55e&cacheSeconds=300" alt="playing now" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgames.roblox.com%2Fv1%2Fgames%3FuniverseIds%3D9871416081&query=%24.data%5B0%5D.visits&style=for-the-badge&label=👁%20VISITS&labelColor=0d1117&color=38bdf8&cacheSeconds=3600" alt="visits" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgames.roblox.com%2Fv1%2Fgames%3FuniverseIds%3D9871416081&query=%24.data%5B0%5D.favoritedCount&style=for-the-badge&label=⭐%20FAVORITES&labelColor=0d1117&color=eab308&cacheSeconds=3600" alt="favorites" />
-
-<br/><br/>
-
-<a href="https://www.roblox.com/games/99421048043573"><img src="https://img.shields.io/badge/▶%20PLAY%20NOW-Table%20Tennis!%20🏓-ff4757?style=for-the-badge&logo=roblox&logoColor=white&labelColor=0d1117" alt="play now" /></a>
+<a href="https://www.roblox.com/games/99421048043573"><img src="https://img.shields.io/badge/▶%20PLAY-Table%20Tennis!-ff4757?style=for-the-badge&logo=roblox&logoColor=white&labelColor=0d1117" alt="play" /></a>
 <a href="https://discord.gg/furkanlua"><img src="https://img.shields.io/badge/💬%20JOIN-discord.gg%2Ffurkanlua-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="join server" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
@@ -134,6 +127,6 @@ My game — real players, real load. These numbers are live, straight from the R
   <img alt="snake" src="https://raw.githubusercontent.com/Furkibea/Furkibea/output/github-snake.svg" />
 </picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:020617,45:1d4ed8,70:38bdf8,100:020617&section=footer" alt="footer" width="100%" />
+<img src="assets/footer.svg" alt="footer" width="100%" />
 
 </div>
