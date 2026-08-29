@@ -1,0 +1,13 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="fb" x1="0" y1="0" x2="1000" y2="140" gradientUnits="userSpaceOnUse">
+<stop stop-color="#020617"/>
+<stop offset=".5" stop-color="#0c2f6e"/>
+<stop offset="1" stop-color="#020617"/>
+</linearGradient>
+</defs>
+<rect width="1000" height="140" fill="url(#fb)"/>
+<path d="M0 36 C 180 8 340 62 520 40 C 720 16 860 58 1000 30 L 1000 0 L 0 0 Z" fill="#38bdf8" opacity=".12"/>
+<path d="M0 22 C 220 -2 420 50 640 26 C 820 8 920 40 1000 18 L 1000 0 L 0 0 Z" fill="#60a5fa" opacity=".15"/>
+<text x="500" y="92" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="16" fill="#64748b" letter-spacing="3">// thanks for scrolling this far</text>
+</svg>
