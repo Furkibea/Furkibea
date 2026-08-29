@@ -8,6 +8,7 @@
 
 <a href="https://discord.com/users/798795705988546622"><img src="https://img.shields.io/badge/DISCORD-furkidev-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="discord" /></a>
 <a href="https://discord.gg/furkanlua"><img src="https://img.shields.io/badge/SERVER-furkanlua-38bdf8?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="server" /></a>
+<a href="https://discord.gg/9gWSxpmYe4"><img src="https://img.shields.io/badge/PORTFOLIO-FURKAN%20X-eab308?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="portfolio" /></a>
 <img src="https://img.shields.io/badge/STATUS-SHIPPING-22c55e?style=for-the-badge&labelColor=0d1117" alt="status" />
 <img src="https://komarev.com/ghpvc/?username=Furkibea&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS" alt="views" />
 
@@ -39,6 +40,7 @@ Furkan · 18 · TR — roblox systems dev, luau enjoyer
 furki@studio:~$ contact --socials
 discord : furkidev
 server  : discord.gg/furkanlua
+porto   : discord.gg/9gWSxpmYe4
 github  : Furkibea
 
 furki@studio:~$ stack --verbose
@@ -99,6 +101,7 @@ return Furkan
 
 <a href="https://www.roblox.com/games/99421048043573"><img src="https://img.shields.io/badge/▶%20PLAY-Table%20Tennis!-ff4757?style=for-the-badge&logo=roblox&logoColor=white&labelColor=0d1117" alt="play" /></a>
 <a href="https://discord.gg/furkanlua"><img src="https://img.shields.io/badge/💬%20JOIN-discord.gg%2Ffurkanlua-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="join server" /></a>
+<a href="https://discord.gg/9gWSxpmYe4"><img src="https://img.shields.io/badge/🎨%20PORTFOLIO-Furkan%20Portfolio%20X-eab308?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="portfolio server" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
