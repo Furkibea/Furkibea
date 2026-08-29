@@ -123,7 +123,7 @@ My game — real players, real load. These numbers are live, straight from the R
 <br/><br/>
 
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furkibea&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8" alt="languages" />
-X
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 ## 🐍 Contribution Snake
