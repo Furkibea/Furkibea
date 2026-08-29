@@ -124,14 +124,6 @@ return Furkan
 
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furkibea&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7" alt="languages" />
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Furkibea&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&area_color=a855f7" width="95%" alt="activity graph" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Furkibea&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&title_color=a855f7" alt="trophies" />
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 ## 🐍 Contribution Snake
@@ -145,4 +137,3 @@ return Furkan
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0f0c29,35:6d28d9,65:a855f7,100:0f0c29&section=footer" alt="footer" width="100%" />
 
 </div>
-
