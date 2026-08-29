@@ -1,0 +1,28 @@
+<svg width="720" height="110" viewBox="0 0 720 110" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:Consolas,'Courier New',monospace;font-size:22px}
+.ln{fill:#38bdf8}
+.pr{fill:#22c55e;font-weight:bold}
+.cur{fill:#38bdf8;animation:bl 1s steps(1) infinite}
+@keyframes bl{0%,60%{opacity:1}61%,100%{opacity:0}}
+.rv{transform-box:fill-box;transform-origin:left center;animation-duration:18s;animation-iteration-count:infinite;animation-timing-function:linear}
+.r1{animation-name:k1}
+.r2{animation-name:k2}
+.r3{animation-name:k3}
+.r4{animation-name:k4}
+@keyframes k1{0%{transform:scaleX(0);animation-timing-function:steps(31,end)}13%{transform:scaleX(1)}22%{transform:scaleX(1)}24%,100%{transform:scaleX(0)}}
+@keyframes k2{0%,25%{transform:scaleX(0)}25.1%{transform:scaleX(0);animation-timing-function:steps(27,end)}38%{transform:scaleX(1)}47%{transform:scaleX(1)}49%,100%{transform:scaleX(0)}}
+@keyframes k3{0%,50%{transform:scaleX(0)}50.1%{transform:scaleX(0);animation-timing-function:steps(32,end)}63%{transform:scaleX(1)}72%{transform:scaleX(1)}74%,100%{transform:scaleX(0)}}
+@keyframes k4{0%,75%{transform:scaleX(0)}75.1%{transform:scaleX(0);animation-timing-function:steps(20,end)}88%{transform:scaleX(1)}97%{transform:scaleX(1)}98.5%,100%{transform:scaleX(0)}}
+</style>
+<clipPath id="c1"><rect class="rv r1" x="120" y="40" width="460" height="36"/></clipPath>
+<clipPath id="c2"><rect class="rv r2" x="120" y="40" width="460" height="36"/></clipPath>
+<clipPath id="c3"><rect class="rv r3" x="120" y="40" width="460" height="36"/></clipPath>
+<clipPath id="c4"><rect class="rv r4" x="120" y="40" width="460" height="36"/></clipPath>
+<text class="pr" x="84" y="66">&#10095;</text>
+<rect class="cur" x="104" y="46" width="3" height="26"/>
+<text class="ln" x="120" y="66" clip-path="url(#c1)">Roblox / Luau Systems Developer</text>
+<text class="ln" x="120" y="66" clip-path="url(#c2)">18 &#183; TR &#183; server-side brain</text>
+<text class="ln" x="120" y="66" clip-path="url(#c3)">currently building Table Tennis!</text>
+<text class="ln" x="120" y="66" clip-path="url(#c4)">discord.gg/furkanlua</text>
+</svg>
