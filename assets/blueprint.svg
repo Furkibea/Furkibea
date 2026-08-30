@@ -1,65 +1,69 @@
-<svg width="940" height="360" viewBox="0 0 940 360" xmlns="http://www.w3.org/2000/svg">
+<svg width="940" height="472" viewBox="0 0 940 472" xmlns="http://www.w3.org/2000/svg">
 <style>
-.t{font-family:Consolas,'Courier New',monospace}
-.pL{animation:pl 4s ease-in-out infinite}
-.pR{animation:pr 4s ease-in-out infinite}
-@keyframes pl{0%,100%{transform:translateY(0)}50%{transform:translateY(-26px)}}
-@keyframes pr{0%,100%{transform:translateY(30px)}50%{transform:translateY(0)}}
-.coin{animation:bk 1.6s steps(1) infinite}
-@keyframes bk{0%,55%{opacity:1}56%,100%{opacity:0}}
+text{font-family:Consolas,'Courier New',monospace;font-size:15px;white-space:pre}
+.ln{fill:#3b4453;font-size:13px}
+.cm{fill:#6a9955}.kw{fill:#c586c0}.vr{fill:#9cdcfe}.fn{fill:#dcdcaa}.st{fill:#ce9178}.ty{fill:#4ec9b0}.df{fill:#d4d4d4}.ct{fill:#4fc1ff}
+.ui{font-size:12px;fill:#64748b}
+.r1{transform-box:fill-box;transform-origin:left center;animation:k1 16s linear infinite}
+.r2{transform-box:fill-box;transform-origin:left center;animation:k2 16s linear infinite}
+.cur{animation:kc 16s linear infinite,cb 1s steps(1) infinite}
+@keyframes k1{0%{transform:scaleX(0);animation-timing-function:steps(38,end)}13%{transform:scaleX(1)}24%{transform:scaleX(1);animation-timing-function:steps(38,end)}30%,100%{transform:scaleX(0)}}
+@keyframes k2{0%,32%{transform:scaleX(0)}32.01%{transform:scaleX(0);animation-timing-function:steps(35,end)}46%{transform:scaleX(1)}96%{transform:scaleX(1);animation-timing-function:steps(35,end)}100%{transform:scaleX(0)}}
+@keyframes kc{0%{transform:translateX(0);animation-timing-function:steps(38,end)}13%{transform:translateX(314px)}24%{transform:translateX(314px);animation-timing-function:steps(38,end)}30%{transform:translateX(0)}32%{transform:translateX(0);animation-timing-function:steps(35,end)}46%{transform:translateX(289px)}96%{transform:translateX(289px);animation-timing-function:steps(35,end)}100%{transform:translateX(0)}}
+@keyframes cb{0%,60%{opacity:.85}61%,100%{opacity:.15}}
 </style>
-<defs>
-<radialGradient id="scr" cx=".5" cy=".45" r=".9">
-<stop offset="0" stop-color="#081226"/>
-<stop offset="1" stop-color="#02060f"/>
-</radialGradient>
-<radialGradient id="vig" cx=".5" cy=".5" r=".72">
-<stop offset=".62" stop-color="#000209" stop-opacity="0"/>
-<stop offset="1" stop-color="#000209" stop-opacity=".6"/>
-</radialGradient>
-<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-<rect width="4" height="1.4" y="0" fill="#8fb7ff" opacity=".05"/>
-</pattern>
-<filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
-<feGaussianBlur stdDeviation="3.5" result="b"/>
-<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-</defs>
-<rect x="1" y="1" width="938" height="358" rx="18" fill="#0d1526" stroke="#1e293b" stroke-width="2"/>
-<rect x="18" y="14" width="904" height="312" rx="12" fill="url(#scr)" stroke="#12213f" stroke-width="2"/>
-<line x1="470" y1="70" x2="470" y2="310" stroke="#1d4ed8" stroke-width="4" stroke-dasharray="10 12" filter="url(#neon)"/>
-<text class="t" x="430" y="112" text-anchor="end" font-size="42" font-weight="bold" fill="#22d3ee" filter="url(#neon)">0</text>
-<text class="t" x="510" y="112" text-anchor="start" font-size="42" font-weight="bold" fill="#4ade80" filter="url(#neon)">&#8734;</text>
-<text class="t" x="430" y="132" text-anchor="end" font-size="11" fill="#475569" letter-spacing="2">CLIENT</text>
-<text class="t" x="510" y="132" text-anchor="start" font-size="11" fill="#475569" letter-spacing="2">SERVER</text>
-<g transform="translate(76,200)"><rect class="pL" x="-6" y="-32" width="12" height="64" rx="3" fill="#22d3ee" filter="url(#neon)"/></g>
-<g transform="translate(864,170)"><rect class="pR" x="-6" y="-32" width="12" height="64" rx="3" fill="#4ade80" filter="url(#neon)"/></g>
-<g opacity=".18">
-<rect x="-4" y="-4" width="8" height="8" fill="#f8fafc"/>
-<animateMotion dur="4s" begin="-0.16s" repeatCount="indefinite" path="M 95 200 L 320 95 L 600 305 L 845 170 L 600 95 L 320 305 L 95 200"/>
-</g>
-<g opacity=".45">
-<rect x="-5" y="-5" width="10" height="10" fill="#f8fafc"/>
-<animateMotion dur="4s" begin="-0.08s" repeatCount="indefinite" path="M 95 200 L 320 95 L 600 305 L 845 170 L 600 95 L 320 305 L 95 200"/>
-</g>
-<g>
-<rect x="-6" y="-6" width="12" height="12" fill="#f8fafc" filter="url(#neon)"/>
-<animateMotion dur="4s" repeatCount="indefinite" path="M 95 200 L 320 95 L 600 305 L 845 170 L 600 95 L 320 305 L 95 200"/>
-</g>
-<g opacity="0">
-<rect x="-6" y="-6" width="12" height="12" fill="#f87171" filter="url(#neon)"/>
-<animateMotion dur="8s" begin="1.5s" repeatCount="indefinite" path="M 95 250 L 460 250" keyPoints="0;1;1" keyTimes="0;0.22;1" calcMode="linear"/>
-<animate attributeName="opacity" dur="8s" begin="1.5s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.02;0.215;0.23;1"/>
-</g>
-<circle cx="466" cy="250" r="3" fill="none" stroke="#f87171" stroke-width="2.5" opacity="0" filter="url(#neon)">
-<animate attributeName="r" dur="8s" begin="1.5s" repeatCount="indefinite" values="3;3;24;3" keyTimes="0;0.215;0.30;1"/>
-<animate attributeName="opacity" dur="8s" begin="1.5s" repeatCount="indefinite" values="0;0;.9;0;0" keyTimes="0;0.21;0.24;0.31;1"/>
-</circle>
-<text class="t" x="466" y="228" text-anchor="middle" font-size="15" font-weight="bold" fill="#f87171" letter-spacing="3" opacity="0" filter="url(#neon)">NICE TRY
-<animate attributeName="opacity" dur="8s" begin="1.5s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.215;0.24;0.36;0.44;1"/></text>
-<text class="t coin" x="44" y="314" font-size="12" fill="#155e75" letter-spacing="2">INSERT COIN</text>
-<text class="t" x="896" y="314" text-anchor="end" font-size="12" fill="#334155" letter-spacing="1">RALLY #919177</text>
-<rect x="18" y="14" width="904" height="312" rx="12" fill="url(#scan)"/>
-<rect x="18" y="14" width="904" height="312" rx="12" fill="url(#vig)"/>
-<text class="t" x="470" y="348" text-anchor="middle" font-size="13" fill="#475569" letter-spacing="1">the server holds the truth. the client just draws it.</text>
+<rect x="1" y="1" width="938" height="470" rx="12" fill="#0f131a" stroke="#1e293b" stroke-width="2"/>
+<path d="M1 44 H939" stroke="#161b26" stroke-width="2"/>
+<circle cx="28" cy="23" r="6" fill="#ff5f56"/>
+<circle cx="50" cy="23" r="6" fill="#ffbd2e"/>
+<circle cx="72" cy="23" r="6" fill="#27c93f"/>
+<rect x="340" y="8" width="270" height="30" rx="8" fill="#0b0e14" stroke="#1e293b"/>
+<text class="ui" x="475" y="27" text-anchor="middle">combat_service.luau &#9679;</text>
+<text class="ui" x="912" y="27" text-anchor="end"><tspan fill="#27c93f">&#9679;</tspan> Rojo: connected</text>
+<rect x="60" y="345" width="820" height="22" fill="#182030" opacity=".7"/>
+<text class="ln" x="52" y="74" text-anchor="end">1</text>
+<text class="ln" x="52" y="96" text-anchor="end">2</text>
+<text class="ln" x="52" y="118" text-anchor="end">3</text>
+<text class="ln" x="52" y="140" text-anchor="end">4</text>
+<text class="ln" x="52" y="162" text-anchor="end">5</text>
+<text class="ln" x="52" y="184" text-anchor="end">6</text>
+<text class="ln" x="52" y="206" text-anchor="end">7</text>
+<text class="ln" x="52" y="228" text-anchor="end">8</text>
+<text class="ln" x="52" y="250" text-anchor="end">9</text>
+<text class="ln" x="52" y="272" text-anchor="end">10</text>
+<text class="ln" x="52" y="294" text-anchor="end">11</text>
+<text class="ln" x="52" y="316" text-anchor="end">12</text>
+<text class="ln" x="52" y="338" text-anchor="end">13</text>
+<text class="ln" x="52" y="360" text-anchor="end">14</text>
+<text class="ln" x="52" y="382" text-anchor="end">15</text>
+<text class="ln" x="52" y="404" text-anchor="end">16</text>
+<text class="ln" x="52" y="426" text-anchor="end">17</text>
+<text x="72" y="74" xml:space="preserve" class="cm">--!strict</text>
+<text x="72" y="96" xml:space="preserve" class="cm">-- combat_service.luau &#183; by furkibea</text>
+<text x="72" y="118" xml:space="preserve"><tspan class="kw">local</tspan><tspan class="df"> </tspan><tspan class="vr">Players</tspan><tspan class="df"> = </tspan><tspan class="vr">game</tspan><tspan class="df">:</tspan><tspan class="fn">GetService</tspan><tspan class="df">(</tspan><tspan class="st">"Players"</tspan><tspan class="df">)</tspan></text>
+<text x="72" y="140" xml:space="preserve"><tspan class="kw">local</tspan><tspan class="df"> </tspan><tspan class="ct">MAX_RANGE</tspan><tspan class="df"> = </tspan><tspan class="ct">14</tspan></text>
+<text x="72" y="162" xml:space="preserve"><tspan class="kw">local</tspan><tspan class="df"> </tspan><tspan class="vr">CombatService</tspan><tspan class="df"> = {}</tspan></text>
+<text x="72" y="206" xml:space="preserve"><tspan class="kw">local function</tspan><tspan class="df"> </tspan><tspan class="fn">sanity</tspan><tspan class="df">(</tspan><tspan class="vr">atk</tspan><tspan class="df">: </tspan><tspan class="ty">Attack</tspan><tspan class="df">): </tspan><tspan class="ty">boolean</tspan></text>
+<text x="72" y="228" xml:space="preserve"><tspan class="df">    </tspan><tspan class="kw">return</tspan><tspan class="df"> </tspan><tspan class="vr">atk</tspan><tspan class="df">.range &#60;= </tspan><tspan class="ct">MAX_RANGE</tspan></text>
+<text x="72" y="250" xml:space="preserve"><tspan class="df">        </tspan><tspan class="kw">and</tspan><tspan class="df"> </tspan><tspan class="vr">atk</tspan><tspan class="df">.cooldownOk</tspan></text>
+<text x="72" y="272" xml:space="preserve"><tspan class="df">        </tspan><tspan class="kw">and not</tspan><tspan class="df"> </tspan><tspan class="vr">atk</tspan><tspan class="df">.spoofed</tspan></text>
+<text x="72" y="294" xml:space="preserve" class="kw">end</text>
+<text x="72" y="338" xml:space="preserve"><tspan class="kw">function</tspan><tspan class="df"> </tspan><tspan class="vr">CombatService</tspan><tspan class="df">.</tspan><tspan class="fn">OnHit</tspan><tspan class="df">(</tspan><tspan class="vr">atk</tspan><tspan class="df">: </tspan><tspan class="ty">Attack</tspan><tspan class="df">)</tspan></text>
+<clipPath id="c1"><rect class="r1" x="105" y="345" width="320" height="24"/></clipPath>
+<clipPath id="c2"><rect class="r2" x="105" y="345" width="295" height="24"/></clipPath>
+<text x="105" y="360" xml:space="preserve" clip-path="url(#c1)"><tspan class="vr">hum</tspan><tspan class="df">.Health -= </tspan><tspan class="vr">dmg</tspan><tspan class="cm"> -- client said so :(</tspan></text>
+<text x="105" y="360" xml:space="preserve" clip-path="url(#c2)"><tspan class="vr">CombatService</tspan><tspan class="df">:</tspan><tspan class="fn">Validate</tspan><tspan class="df">(</tspan><tspan class="vr">atk</tspan><tspan class="df">):</tspan><tspan class="fn">Apply</tspan><tspan class="df">()</tspan></text>
+<rect class="cur" x="105" y="346" width="8" height="17" fill="#7dd3fc"/>
+<text x="72" y="382" xml:space="preserve" class="kw">end</text>
+<text x="72" y="426" xml:space="preserve"><tspan class="kw">return</tspan><tspan class="df"> </tspan><tspan class="vr">CombatService</tspan></text>
+<rect x="884" y="60" width="20" height="3" fill="#3b4453" opacity=".5"/>
+<rect x="884" y="68" width="26" height="3" fill="#3b4453" opacity=".4"/>
+<rect x="884" y="76" width="14" height="3" fill="#3b4453" opacity=".5"/>
+<rect x="884" y="84" width="22" height="3" fill="#3b4453" opacity=".35"/>
+<rect x="884" y="92" width="18" height="3" fill="#3b4453" opacity=".5"/>
+<rect x="884" y="100" width="24" height="3" fill="#3b4453" opacity=".4"/>
+<rect x="884" y="108" width="12" height="3" fill="#3b4453" opacity=".45"/>
+<path d="M1 436 H939" stroke="#161b26" stroke-width="2"/>
+<text class="ui" x="28" y="456">git:main*</text>
+<text class="ui" x="912" y="456" text-anchor="end">Luau &#183; UTF-8 &#183; Ln 14, Col 1 &#183; spaces: 4</text>
 </svg>
