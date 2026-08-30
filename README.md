@@ -16,9 +16,17 @@
 
 ## ⚙️ Tech Arsenal
 
-<img src="https://skillicons.dev/icons?i=lua,ts,js,cs,cpp,html,css,react,nodejs&perline=9" alt="stack-1" />
-<br/>
-<img src="https://skillicons.dev/icons?i=robloxstudio,git,github,vscode,visualstudio,py,unity,blender,figma&perline=9" alt="stack-2" />
+<sub>languages</sub>
+
+<img src="https://skillicons.dev/icons?i=lua,ts,js,cs,cpp,py,html,css,md&perline=9" alt="languages" />
+
+<sub>frameworks &amp; runtime</sub>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,vite,dotnet,unity,discordjs,electron&perline=9" alt="frameworks" />
+
+<sub>tools &amp; workflow</sub>
+
+<img src="https://skillicons.dev/icons?i=robloxstudio,git,github,githubactions,vscode,visualstudio,blender,figma,obsidian&perline=9" alt="tools" />
 
 <br/><br/>
 
@@ -26,6 +34,8 @@
 <img src="https://img.shields.io/badge/Rojo-Workflow-e13835?style=flat-square&labelColor=0d1117" alt="rojo" />
 <img src="https://img.shields.io/badge/Unity-C%23-38bdf8?style=flat-square&logo=unity&logoColor=white&labelColor=0d1117" alt="unity" />
 <img src="https://img.shields.io/badge/Native-C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0d1117" alt="cpp" />
+<img src="https://img.shields.io/badge/Discord.js-Bots-5865F2?style=flat-square&logo=discord&logoColor=white&labelColor=0d1117" alt="discordjs" />
+<img src="https://img.shields.io/badge/GitHub-Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=0d1117" alt="actions" />
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
@@ -86,7 +96,16 @@ Every line gets written twice — first the easy way, then the right way:
 
 ## 🎧 Live Presence
 
+<img src="assets/presence.svg" alt="live from the studio" width="720" />
+
+<br/><br/>
+
 <a href="https://discord.com/users/798795705988546622"><img src="https://lanyard.cnrad.dev/api/798795705988546622?theme=dark&bg=0d1117&animated=true&borderRadius=12px&idleMessage=Probably%20in%20studio%20right%20now..." alt="discord presence" /></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.lanyard.rest%2Fv1%2Fusers%2F798795705988546622&query=%24.data.discord_status&style=for-the-badge&label=DISCORD%20STATUS&labelColor=0d1117&color=5865F2&cacheSeconds=300" alt="live status" />
+<a href="https://discord.com/users/798795705988546622"><img src="https://img.shields.io/badge/💬%20DM%20ME-furkidev-22c55e?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="dm me" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
