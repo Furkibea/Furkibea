@@ -66,15 +66,15 @@ in studio more than in bed. worth it.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-## 🧠 The Blueprint
+## 🏓 The Rally
 
 One rule, every project: **the server holds the truth, the client just draws it.**
 
-This is what happens to every packet in my games — including the sussy ones:
+My netcode, drawn as the only sport I respect — spot the exploiter:
 
 <br/>
 
-<img src="assets/blueprint.svg" alt="system blueprint" width="100%" />
+<img src="assets/blueprint.svg" alt="the rally" width="100%" />
 
 <br/><br/>
 
