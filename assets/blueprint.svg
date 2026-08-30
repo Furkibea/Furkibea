@@ -4,12 +4,7 @@ text{font-family:Consolas,'Courier New',monospace;font-size:15px;white-space:pre
 .ln{fill:#3b4453;font-size:13px}
 .cm{fill:#6a9955}.kw{fill:#c586c0}.vr{fill:#9cdcfe}.fn{fill:#dcdcaa}.st{fill:#ce9178}.ty{fill:#4ec9b0}.df{fill:#d4d4d4}.ct{fill:#4fc1ff}
 .ui{font-size:12px;fill:#64748b}
-.r1{transform-box:fill-box;transform-origin:left center;animation:k1 16s linear infinite}
-.r2{transform-box:fill-box;transform-origin:left center;animation:k2 16s linear infinite}
-.cur{animation:kc 16s linear infinite,cb 1s steps(1) infinite}
-@keyframes k1{0%{transform:scaleX(0);animation-timing-function:steps(38,end)}13%{transform:scaleX(1)}24%{transform:scaleX(1);animation-timing-function:steps(38,end)}30%,100%{transform:scaleX(0)}}
-@keyframes k2{0%,32%{transform:scaleX(0)}32.01%{transform:scaleX(0);animation-timing-function:steps(35,end)}46%{transform:scaleX(1)}96%{transform:scaleX(1);animation-timing-function:steps(35,end)}100%{transform:scaleX(0)}}
-@keyframes kc{0%{transform:translateX(0);animation-timing-function:steps(38,end)}13%{transform:translateX(314px)}24%{transform:translateX(314px);animation-timing-function:steps(38,end)}30%{transform:translateX(0)}32%{transform:translateX(0);animation-timing-function:steps(35,end)}46%{transform:translateX(289px)}96%{transform:translateX(289px);animation-timing-function:steps(35,end)}100%{transform:translateX(0)}}
+.cur{animation:cb 1s steps(1) infinite}
 @keyframes cb{0%,60%{opacity:.85}61%,100%{opacity:.15}}
 </style>
 <rect x="1" y="1" width="938" height="470" rx="12" fill="#0f131a" stroke="#1e293b" stroke-width="2"/>
@@ -49,11 +44,17 @@ text{font-family:Consolas,'Courier New',monospace;font-size:15px;white-space:pre
 <text x="72" y="272" xml:space="preserve"><tspan class="df">        </tspan><tspan class="kw">and not</tspan><tspan class="df"> </tspan><tspan class="vr">atk</tspan><tspan class="df">.spoofed</tspan></text>
 <text x="72" y="294" xml:space="preserve" class="kw">end</text>
 <text x="72" y="338" xml:space="preserve"><tspan class="kw">function</tspan><tspan class="df"> </tspan><tspan class="vr">CombatService</tspan><tspan class="df">.</tspan><tspan class="fn">OnHit</tspan><tspan class="df">(</tspan><tspan class="vr">atk</tspan><tspan class="df">: </tspan><tspan class="ty">Attack</tspan><tspan class="df">)</tspan></text>
-<clipPath id="c1"><rect class="r1" x="105" y="345" width="320" height="24"/></clipPath>
-<clipPath id="c2"><rect class="r2" x="105" y="345" width="295" height="24"/></clipPath>
+<clipPath id="c1"><rect x="105" y="345" width="0" height="24">
+<animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="discrete" values="0;36;71;107;142;178;213;249;284;320;256;192;96;0;0" keyTimes="0;.014;.029;.043;.058;.072;.087;.101;.116;.13;.255;.27;.285;.3;1"/>
+</rect></clipPath>
+<clipPath id="c2"><rect x="105" y="345" width="0" height="24">
+<animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="discrete" values="0;0;33;65;98;130;163;195;228;260;292;219;146;73;0" keyTimes="0;.32;.335;.35;.365;.38;.395;.41;.425;.44;.46;.97;.98;.99;1"/>
+</rect></clipPath>
 <text x="105" y="360" xml:space="preserve" clip-path="url(#c1)"><tspan class="vr">hum</tspan><tspan class="df">.Health -= </tspan><tspan class="vr">dmg</tspan><tspan class="cm"> -- client said so :(</tspan></text>
 <text x="105" y="360" xml:space="preserve" clip-path="url(#c2)"><tspan class="vr">CombatService</tspan><tspan class="df">:</tspan><tspan class="fn">Validate</tspan><tspan class="df">(</tspan><tspan class="vr">atk</tspan><tspan class="df">):</tspan><tspan class="fn">Apply</tspan><tspan class="df">()</tspan></text>
-<rect class="cur" x="105" y="346" width="8" height="17" fill="#7dd3fc"/>
+<rect class="cur" x="105" y="346" width="8" height="17" fill="#7dd3fc">
+<animate attributeName="x" dur="16s" repeatCount="indefinite" calcMode="discrete" values="105;141;176;212;247;283;318;354;389;425;361;297;201;105;138;170;203;235;268;300;333;365;397;397;324;251;178;105" keyTimes="0;.014;.029;.043;.058;.072;.087;.101;.116;.13;.255;.27;.285;.3;.335;.35;.365;.38;.395;.41;.425;.44;.46;.97;.98;.99;.995;1"/>
+</rect>
 <text x="72" y="382" xml:space="preserve" class="kw">end</text>
 <text x="72" y="426" xml:space="preserve"><tspan class="kw">return</tspan><tspan class="df"> </tspan><tspan class="vr">CombatService</tspan></text>
 <rect x="884" y="60" width="20" height="3" fill="#3b4453" opacity=".5"/>
