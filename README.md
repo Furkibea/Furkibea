@@ -66,38 +66,17 @@ in studio more than in bed. worth it.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-## 🧠 About
+## 🧠 The Blueprint
 
-I build Roblox games the boring-correct way: the server holds the truth, the client just draws it.
+One rule, every project: **the server holds the truth, the client just draws it.**
 
-Most of my time goes into **[Table Tennis! 🏓](https://www.roblox.com/games/99421048043573)** right now — 900K+ visits, real players, real load.
-
-</div>
-
-```lua
-local Developer = require(script.Parent.Furkibea)
-
-local Furkan = Developer.new({
-	Alias          = "Furkibea",
-	Mindset        = "server first, panic never",
-	Languages      = { "Luau", "TypeScript", "C#", "C++", "JS" },
-	ShipsSpaghetti = false,
-})
-
-function Furkan:Build(idea: Idea): System
-	assert(idea.IsScalable, "refactor the design first")
-	return System.new(idea)
-		:WithValidation() -- never trust the client
-		:WithTests()
-		:WithDocs()
-end
-
-return Furkan
-```
-
-<div align="center">
+This is what happens to every packet in my games — including the sussy ones:
 
 <br/>
+
+<img src="assets/blueprint.svg" alt="system blueprint" width="100%" />
+
+<br/><br/>
 
 <a href="https://www.roblox.com/games/99421048043573"><img src="https://img.shields.io/badge/▶%20PLAY-Table%20Tennis!-ff4757?style=for-the-badge&logo=roblox&logoColor=white&labelColor=0d1117" alt="play" /></a>
 <a href="https://discord.gg/furkanlua"><img src="https://img.shields.io/badge/💬%20JOIN-discord.gg%2Ffurkanlua-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="join server" /></a>
