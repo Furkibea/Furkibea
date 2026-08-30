@@ -107,26 +107,33 @@ Every line gets written twice — first the easy way, then the right way:
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.lanyard.rest%2Fv1%2Fusers%2F798795705988546622&query=%24.data.discord_status&style=for-the-badge&label=DISCORD%20STATUS&labelColor=0d1117&color=5865F2&cacheSeconds=300" alt="live status" />
 <a href="https://discord.com/users/798795705988546622"><img src="https://img.shields.io/badge/💬%20DM%20ME-furkidev-22c55e?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="dm me" /></a>
 
+<br/><br/>
+
+<img src="https://img.shields.io/badge/💎%20NITRO-5865F2?style=flat-square&labelColor=0d1117" alt="nitro" />
+<img src="https://img.shields.io/badge/🚀%20SERVER%20BOOSTER-f47fff?style=flat-square&labelColor=0d1117" alt="booster" />
+<img src="https://img.shields.io/badge/🌿%20ACTIVE%20DEVELOPER-22c55e?style=flat-square&labelColor=0d1117" alt="active dev" />
+<img src="https://img.shields.io/badge/⚔️%20CEO-94a3b8?style=flat-square&labelColor=0d1117" alt="ceo" />
+<img src="https://img.shields.io/badge/🛡️%20HYPESQUAD-f59e0b?style=flat-square&labelColor=0d1117" alt="hypesquad" />
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 ## 📊 Analytics
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Furkibea&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true&title_color=38bdf8&icon_color=38bdf8" alt="stats" />
+<img src="profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="profile details" />
+
+<img height="180" src="profile-summary-card-output/github_dark/3-stats.svg" alt="stats" />
 <img height="180" src="https://streak-stats.demolab.com/?user=Furkibea&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="streak" />
 
 <br/><br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furkibea&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8" alt="languages" />
+<img height="180" src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="top languages" />
+<img height="180" src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="commit languages" />
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-## 🐍 Contribution Snake
+## 🌌 After Hours
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Furkibea/Furkibea/output/github-snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Furkibea/Furkibea/output/github-snake-light.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/Furkibea/Furkibea/output/github-snake.svg" />
-</picture>
+<img src="assets/space.svg" alt="somewhere between commits" width="100%" />
 
 <img src="assets/footer.svg" alt="footer" width="100%" />
 
