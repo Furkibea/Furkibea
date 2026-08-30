@@ -1,59 +1,123 @@
-<svg width="940" height="320" viewBox="0 0 940 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="940" height="360" viewBox="0 0 940 360" xmlns="http://www.w3.org/2000/svg">
 <style>
 .t{font-family:Consolas,'Courier New',monospace}
 .star{fill:#e0f2fe;animation:tw 3.4s ease-in-out infinite}
 .s2{animation-delay:1.2s}
 .s3{animation-delay:2.3s}
 .s4{animation-delay:.7s}
-@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.s5{animation-delay:1.8s}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
 </style>
 <defs>
-<radialGradient id="deep" cx=".5" cy=".4" r=".95">
-<stop offset="0" stop-color="#081226"/>
+<radialGradient id="deep" cx=".5" cy=".35" r="1.1">
+<stop offset="0" stop-color="#0a1430"/>
+<stop offset=".55" stop-color="#050b1d"/>
 <stop offset="1" stop-color="#01040c"/>
 </radialGradient>
-<radialGradient id="pl" cx=".35" cy=".3" r="1">
-<stop offset="0" stop-color="#60a5fa"/>
-<stop offset=".55" stop-color="#1d4ed8"/>
-<stop offset="1" stop-color="#0c1e4d"/>
+<radialGradient id="gasg" cx=".38" cy=".3" r="1">
+<stop offset="0" stop-color="#38bdf8"/>
+<stop offset=".45" stop-color="#1d4ed8"/>
+<stop offset=".8" stop-color="#0b1f52"/>
+<stop offset="1" stop-color="#06122e"/>
 </radialGradient>
-<filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
-<feGaussianBlur stdDeviation="3" result="b"/>
+<radialGradient id="sat" cx=".35" cy=".3" r="1">
+<stop offset="0" stop-color="#fde68a"/>
+<stop offset=".55" stop-color="#d97706"/>
+<stop offset="1" stop-color="#78350f"/>
+</radialGradient>
+<radialGradient id="mars" cx=".35" cy=".3" r="1">
+<stop offset="0" stop-color="#f87171"/>
+<stop offset=".6" stop-color="#b91c1c"/>
+<stop offset="1" stop-color="#450a0a"/>
+</radialGradient>
+<filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
+<filter id="soft2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="glo" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="2.5" result="b"/>
 <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
+<clipPath id="gg"><circle cx="70" cy="420" r="185"/></clipPath>
+<clipPath id="panel"><rect x="1" y="1" width="938" height="358" rx="14"/></clipPath>
 </defs>
-<rect x="1" y="1" width="938" height="318" rx="14" fill="url(#deep)" stroke="#1e3a8a" stroke-width="2"/>
-<circle class="star" cx="90" cy="60" r="1.3"/>
-<circle class="star s2" cx="180" cy="140" r="1"/>
-<circle class="star s3" cx="260" cy="50" r="1.2"/>
-<circle class="star s4" cx="340" cy="110" r=".9"/>
-<circle class="star s2" cx="430" cy="60" r="1.3"/>
-<circle class="star" cx="520" cy="130" r="1"/>
-<circle class="star s3" cx="600" cy="45" r="1.2"/>
-<circle class="star s4" cx="660" cy="150" r="1"/>
-<circle class="star s2" cx="880" cy="60" r="1.2"/>
-<circle class="star" cx="60" cy="230" r="1"/>
-<circle class="star s3" cx="200" cy="270" r="1.1"/>
-<circle class="star s4" cx="400" cy="250" r="1"/>
-<circle class="star s2" cx="560" cy="280" r="1.2"/>
-<circle class="star" cx="700" cy="240" r="1"/>
-<circle class="star s3" cx="850" cy="270" r="1.1"/>
-<circle class="star s4" cx="910" cy="160" r=".9"/>
-<circle cx="140" cy="85" r="18" fill="#94a3b8" opacity=".85"/>
-<circle cx="134" cy="79" r="4" fill="#64748b" opacity=".7"/>
-<circle cx="147" cy="92" r="3" fill="#64748b" opacity=".6"/>
-<circle cx="143" cy="76" r="2" fill="#64748b" opacity=".5"/>
-<ellipse cx="780" cy="115" rx="72" ry="14" fill="none" stroke="#7dd3fc" stroke-width="3" opacity=".35" transform="rotate(-14 780 115)"/>
-<circle cx="780" cy="112" r="44" fill="url(#pl)"/>
-<path d="M 744 96 Q 780 108 816 94" stroke="#93c5fd" stroke-width="3" fill="none" opacity=".3"/>
-<path d="M 740 122 Q 782 134 820 118" stroke="#93c5fd" stroke-width="3" fill="none" opacity=".22"/>
-<ellipse cx="780" cy="115" rx="72" ry="14" fill="none" stroke="#7dd3fc" stroke-width="3" opacity=".6" stroke-dasharray="0 118 110 226" transform="rotate(-14 780 115)"/>
-<line x1="0" y1="0" x2="-70" y2="24" stroke="#e0f2fe" stroke-width="2" opacity="0" filter="url(#glow2)">
-<animateMotion dur="7s" begin="1s" repeatCount="indefinite" path="M 240 40 L 520 130" keyPoints="0;1;1" keyTimes="0;0.12;1" calcMode="linear"/>
+<g clip-path="url(#panel)">
+<rect x="1" y="1" width="938" height="358" fill="url(#deep)"/>
+<ellipse cx="500" cy="140" rx="560" ry="70" fill="#93c5fd" opacity=".05" filter="url(#soft)" transform="rotate(-12 500 140)"/>
+<ellipse cx="520" cy="150" rx="420" ry="34" fill="#e0f2fe" opacity=".05" filter="url(#soft)" transform="rotate(-12 520 150)"/>
+<ellipse cx="210" cy="80" rx="170" ry="70" fill="#7c3aed" opacity=".13" filter="url(#soft)"/>
+<ellipse cx="640" cy="270" rx="200" ry="80" fill="#0ea5e9" opacity=".10" filter="url(#soft)"/>
+<ellipse cx="470" cy="55" rx="150" ry="46" fill="#db2777" opacity=".08" filter="url(#soft)"/>
+<ellipse cx="860" cy="230" rx="120" ry="60" fill="#7c3aed" opacity=".08" filter="url(#soft)"/>
+<circle cx="120" cy="50" r=".8" fill="#e0f2fe" opacity=".4"/>
+<circle cx="205" cy="180" r=".7" fill="#e0f2fe" opacity=".35"/>
+<circle cx="365" cy="140" r=".8" fill="#e0f2fe" opacity=".45"/>
+<circle cx="415" cy="45" r=".7" fill="#e0f2fe" opacity=".3"/>
+<circle cx="505" cy="255" r=".8" fill="#e0f2fe" opacity=".4"/>
+<circle cx="585" cy="95" r=".7" fill="#e0f2fe" opacity=".35"/>
+<circle cx="668" cy="200" r=".8" fill="#e0f2fe" opacity=".4"/>
+<circle cx="742" cy="290" r=".7" fill="#e0f2fe" opacity=".3"/>
+<circle cx="905" cy="120" r=".8" fill="#e0f2fe" opacity=".45"/>
+<circle cx="855" cy="45" r=".7" fill="#e0f2fe" opacity=".35"/>
+<circle cx="290" cy="240" r=".8" fill="#e0f2fe" opacity=".4"/>
+<circle cx="470" cy="160" r=".7" fill="#e0f2fe" opacity=".3"/>
+<circle class="star" cx="95" cy="120" r="1.3"/>
+<circle class="star s2" cx="175" cy="60" r="1"/>
+<circle class="star s3" cx="255" cy="150" r="1.2"/>
+<circle class="star s4" cx="390" cy="95" r="1"/>
+<circle class="star s5" cx="450" cy="200" r="1.2"/>
+<circle class="star s2" cx="540" cy="60" r="1.1"/>
+<circle class="star" cx="620" cy="150" r="1.3"/>
+<circle class="star s3" cx="690" cy="45" r="1"/>
+<circle class="star s4" cx="760" cy="215" r="1.1"/>
+<circle class="star s5" cx="830" cy="300" r="1.2"/>
+<circle class="star s2" cx="895" cy="185" r="1"/>
+<circle class="star" cx="345" cy="290" r="1.1"/>
+<circle class="star s3" cx="520" cy="320" r="1"/>
+<circle class="star s4" cx="240" cy="320" r="1.1"/>
+<circle class="star s5" cx="640" cy="330" r="1"/>
+<circle class="star s2" cx="912" cy="325" r="1.1"/>
+<g filter="url(#glo)" opacity=".9">
+<line x1="330" y1="105" x2="330" y2="121" stroke="#e0f2fe" stroke-width="1.4"/>
+<line x1="322" y1="113" x2="338" y2="113" stroke="#e0f2fe" stroke-width="1.4"/>
+<circle cx="330" cy="113" r="1.8" fill="#ffffff"/>
+</g>
+<g filter="url(#glo)" opacity=".85">
+<line x1="705" y1="52" x2="705" y2="68" stroke="#e0f2fe" stroke-width="1.4"/>
+<line x1="697" y1="60" x2="713" y2="60" stroke="#e0f2fe" stroke-width="1.4"/>
+<circle cx="705" cy="60" r="1.8" fill="#ffffff"/>
+</g>
+<g filter="url(#glo)" opacity=".8">
+<line x1="150" y1="212" x2="150" y2="228" stroke="#e0f2fe" stroke-width="1.4"/>
+<line x1="142" y1="220" x2="158" y2="220" stroke="#e0f2fe" stroke-width="1.4"/>
+<circle cx="150" cy="220" r="1.8" fill="#ffffff"/>
+</g>
+<ellipse cx="790" cy="96" rx="80" ry="18" fill="none" stroke="#b45309" stroke-width="4" opacity=".3" transform="rotate(-16 790 96)"/>
+<circle cx="790" cy="94" r="42" fill="url(#sat)"/>
+<path d="M 756 80 Q 790 92 824 78" stroke="#fef3c7" stroke-width="3" fill="none" opacity=".25"/>
+<path d="M 752 104 Q 792 116 828 100" stroke="#92400e" stroke-width="4" fill="none" opacity=".3"/>
+<ellipse cx="790" cy="96" rx="80" ry="18" fill="none" stroke="#fcd34d" stroke-width="4.5" opacity=".75" transform="rotate(-16 790 96)" stroke-dasharray="172 172" filter="url(#glo)"/>
+<ellipse cx="790" cy="96" rx="63" ry="13" fill="none" stroke="#fde68a" stroke-width="2" opacity=".45" transform="rotate(-16 790 96)" stroke-dasharray="134 134"/>
+<circle cx="315" cy="72" r="14" fill="url(#mars)"/>
+<circle cx="310" cy="68" r="2.6" fill="#7f1d1d" opacity=".8"/>
+<circle cx="320" cy="77" r="2" fill="#7f1d1d" opacity=".7"/>
+<ellipse cx="315" cy="60.5" rx="6" ry="2.4" fill="#fecaca" opacity=".75"/>
+<circle cx="565" cy="185" r="6" fill="#7dd3fc" filter="url(#glo)" opacity=".9"/>
+<circle cx="430" cy="235" r="4" fill="#c4b5fd" opacity=".8"/>
+<circle cx="70" cy="420" r="185" fill="url(#gasg)"/>
+<g clip-path="url(#gg)" opacity=".85">
+<path d="M -120 268 Q 80 240 250 272" stroke="#93c5fd" stroke-width="8" fill="none" opacity=".25"/>
+<path d="M -120 300 Q 90 268 260 300" stroke="#60a5fa" stroke-width="14" fill="none" opacity=".35"/>
+<path d="M -120 335 Q 90 300 262 338" stroke="#0ea5e9" stroke-width="10" fill="none" opacity=".3"/>
+<ellipse cx="150" cy="302" rx="16" ry="8" fill="#bfdbfe" opacity=".45"/>
+</g>
+<circle cx="70" cy="420" r="185" fill="none" stroke="#7dd3fc" stroke-width="3" opacity=".45" filter="url(#soft2)"/>
+<circle cx="255" cy="252" r="9" fill="#cbd5e1" opacity=".9"/>
+<circle cx="252" cy="249" r="2.4" fill="#94a3b8" opacity=".9"/>
+<line x1="0" y1="0" x2="-70" y2="22" stroke="#e0f2fe" stroke-width="2" opacity="0" filter="url(#glo)">
+<animateMotion dur="7s" begin="1s" repeatCount="indefinite" path="M 430 30 L 640 110" keyPoints="0;1;1" keyTimes="0;0.12;1" calcMode="linear"/>
 <animate attributeName="opacity" dur="7s" begin="1s" repeatCount="indefinite" values="0;.9;0;0" keyTimes="0;0.05;0.12;1"/>
 </line>
-<line x1="0" y1="0" x2="-60" y2="14" stroke="#e0f2fe" stroke-width="2" opacity="0" filter="url(#glow2)">
-<animateMotion dur="9s" begin="4.5s" repeatCount="indefinite" path="M 620 220 L 900 280" keyPoints="0;1;1" keyTimes="0;0.1;1" calcMode="linear"/>
+<line x1="0" y1="0" x2="-60" y2="12" stroke="#e0f2fe" stroke-width="2" opacity="0" filter="url(#glo)">
+<animateMotion dur="9s" begin="4.5s" repeatCount="indefinite" path="M 540 250 L 780 310" keyPoints="0;1;1" keyTimes="0;0.1;1" calcMode="linear"/>
 <animate attributeName="opacity" dur="9s" begin="4.5s" repeatCount="indefinite" values="0;.8;0;0" keyTimes="0;0.04;0.1;1"/>
 </line>
 <g>
@@ -65,8 +129,10 @@
 <animate attributeName="d" values="M -14 0 L -34 0;M -14 0 L -44 0;M -14 0 L -34 0" dur=".28s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="1;.6;1" dur=".28s" repeatCount="indefinite"/>
 </path>
-<animateMotion dur="10s" repeatCount="indefinite" rotate="auto" path="M -80 250 C 180 190 340 260 520 200 C 660 155 780 205 1020 110"/>
+<animateMotion dur="11s" repeatCount="indefinite" rotate="auto" path="M -80 210 C 200 150 380 240 560 150 C 700 85 830 150 1030 190"/>
 </g>
-<text class="t" x="904" y="42" text-anchor="end" font-size="12" fill="#475569" letter-spacing="1">est. 2008 &#183; fueled by luau</text>
-<text class="t" x="470" y="296" text-anchor="middle" font-size="14" fill="#94a3b8" letter-spacing="2">somewhere between commits.</text>
+<text class="t" x="36" y="40" font-size="12" fill="#64748b" letter-spacing="1">est. 2008 &#183; fueled by luau</text>
+<text class="t" x="470" y="338" text-anchor="middle" font-size="14" fill="#94a3b8" letter-spacing="2">somewhere between commits.</text>
+</g>
+<rect x="1" y="1" width="938" height="358" rx="14" fill="none" stroke="#1e3a8a" stroke-width="2"/>
 </svg>
