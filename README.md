@@ -66,15 +66,15 @@ in studio more than in bed. worth it.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-## 🏓 The Rally
+## 🧠 The Refactor
 
 One rule, every project: **the server holds the truth, the client just draws it.**
 
-My netcode, drawn as the only sport I respect — spot the exploiter:
+Every line gets written twice — first the easy way, then the right way:
 
 <br/>
 
-<img src="assets/blueprint.svg" alt="the rally" width="100%" />
+<img src="assets/blueprint.svg" alt="the refactor" width="100%" />
 
 <br/><br/>
 
